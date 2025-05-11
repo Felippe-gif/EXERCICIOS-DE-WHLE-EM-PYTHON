@@ -1,0 +1,15 @@
+print("\n\t\t --- LIATAS PAR OU IMPAR --- \n")
+par = []
+impar = []
+cont = 0
+n =int(input("DIGITE SEU NUMERO :"))
+
+while cont < n:
+    if cont % 2 == 0:
+        par.append(cont)
+    else:
+        impar.append(cont)
+    cont += 1
+
+print(F"PAR :{par}")
+print(F"IMPAR :{impar}") 
