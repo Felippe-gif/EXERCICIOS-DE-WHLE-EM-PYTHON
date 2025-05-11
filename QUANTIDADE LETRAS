@@ -1,0 +1,14 @@
+print("\n\t\t --- QUANTIDADE DE LETRAS ---\n")
+n = 10
+while n > 0:
+    print(F"{n}")
+    n -= 1
+print(F"fogo")
+letras = []
+n=input("digite sua letra:")
+while n.lower() != 'x':
+        letras.append(n)
+        n=input("digite outra letra :")
+
+print(f'A QUANTIDADE :{len(letras)}')
+print(F"AS LETRAS : {letras}")
