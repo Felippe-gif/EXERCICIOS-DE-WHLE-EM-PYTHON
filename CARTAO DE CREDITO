@@ -1,0 +1,24 @@
+print("\n\t\t ---- CREDITO NO CARTAO ---- \n")
+credito = int(input("DIGITE SEU CRÉDITO: "))
+total = 0
+item = 0
+
+while True:
+    preco = int(input("DIGITE O PREÇO DO PRODUTO: "))
+    
+    if preco <= credito:
+        total += preco
+        item += 1
+        credito -= preco
+        resposta = input("DESEJA CONTINUAR A COMPRA (SIM OU NAO)? ").upper()
+        if resposta == "SIM":
+            continue
+        else:
+            break
+    else:
+        print("SALDO INSUFICIENTE NA CONTA.")
+        break
+
+print(f"TOTAL = R$ {total:.2f}")
+print(f"QUANTIDADE DE ITENS = {item}")
+print(f"CREDITO RESTANTE = R$ {credito:.2f}")
