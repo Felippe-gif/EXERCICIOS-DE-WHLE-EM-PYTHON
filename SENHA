@@ -1,0 +1,9 @@
+print("\n\t\t --- SENHA --- \n")
+while True:
+    senha = input("DIGITE SUA SENHA :")
+    while senha != '1234':
+        senha =input("SENHA INCORRETA, TENTE NOVAMENTE :")
+        continue
+    else:
+        print(f"CORRETA A SENHA ")
+        break
