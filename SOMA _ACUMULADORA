@@ -1,0 +1,7 @@
+print("\n\t\t --- SOMA ACUMULADORA --- \n")
+soma = 0 
+numero = int(input("digite seu numero :"))
+while numero >= 0:
+    soma += numero 
+    numero =int(input("digite outro numero:"))
+print(f"a soma dos numeros é {soma}")
