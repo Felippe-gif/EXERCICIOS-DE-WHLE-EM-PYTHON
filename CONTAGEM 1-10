@@ -1,0 +1,5 @@
+print("\n\t\t --- CONTAGEM 1-10 ---\n")
+cont = 1
+while cont <= 10 :
+    print(F"{cont}")
+    cont += 1
