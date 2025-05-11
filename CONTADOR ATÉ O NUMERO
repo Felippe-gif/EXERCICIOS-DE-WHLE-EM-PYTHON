@@ -1,0 +1,5 @@
+print("\n\t\t --- CONTADOR ATÉ O NUMERO --- \n")
+n = int(input("digite um numero :"))
+while n > 0:
+    print(f"{n}")
+    n -= 1
